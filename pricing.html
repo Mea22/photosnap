@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./resources/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/reset.css">
+    <link rel="stylesheet" href="./resources/pricing.css">
+    <title>Pricing</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="menu-images" >
+               <a href="./home.html"><img src="./resources/shared/desktop/logo.svg" alt="logo" class="logo"></a> 
+                <div class="button" id="button">
+                    <button class="menu-button"><img src="./resources/shared/mobile/menu.svg" alt="menu" class="menu-icon"></button>
+                    <button class="close-button"><img src="./resources/shared/mobile/close.svg" alt="close" class="close"></button>
+                </div>
+            </div>
+            <div class="menu-list" id="nav">
+                <div class="pages">
+                    <a href="./storys.html">STORIES</a>
+                    <a href="./features.html">FEATURES</a>
+                    <a href="./pricing.html">PRICING</a>
+                    <div class="line"></div>
+                </div>
+                <button class="invite">GET AN INVITE</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cont-one">
+            <img src="./resources/pricing/mobile/hero.jpg" alt="hero" class="mobile-hero">
+            <img src="./resources/pricing/tablet/hero.jpg" alt="hero" class="tablet-hero">
+            <img src="./resources/pricing/desktop/hero.jpg" alt="hero" class="desktop-hero" >
+            <div class="cont-one-content">
+                <div class="colr-line"></div>
+                <h1>PRICING</h1>
+                <p>Create a your stories, Photosnap is a platform for photographers and visual storytellers. It's the simple way to create and share your photos.</p>
+            </div>
+        </div>
+        <div class="payment">
+            <div class="toggle">
+                <span class="time-pay">Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" class="checkbox" onclick="pricing()">
+                    <span class="slider"></span>
+                  </label>
+                <span class="time-pay">Yearly</span>
+            </div>
+
+            <div class="pay-plan">
+                <div class="pay-cont">
+                    <div class="pay-content">
+                        <div class="pay-info">
+                            <h3>Basic</h3>
+                            <p>Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
+                        </div>
+                        <div class="price">
+                            <h2 class="base">$19.00</h2>
+                            <span>per month</span>
+                        </div>
+                    </div>
+                    <button  class="btn-white">PICK PLAN</button>
+                </div>
+                <div class="pay-cont black">
+                    <div class="pay-line"></div>
+                    <div class="pay-content">
+                        <div class="pay-info">
+                            <h3>Pro</h3>
+                            <p>More advanced features available. Recommended for photography veterans and professionals.</p>
+                        </div>
+                        <div class="price">
+                            <h2 class="pro">$39.00</h2>
+                            <span>per month</span>
+                        </div>
+                    </div>
+                    <button class="btn-black">PICK PLAN</button>
+                </div>
+                <div class="pay-cont">
+                    <div class="pay-content">
+                        <div class="pay-info">
+                            <h3>Business</h3>
+                            <p>Additional features available such as more detailed metrics. Recommended for business owners.</p>
+                        </div>
+                        <div class="price">
+                            <h2 class="business">$99.00</h2>
+                            <span>per month</span>
+                        </div>
+                    </div>
+                    <button class="btn-white">PICK PLAN</button>
+                </div>
+            </div>
+        </div>
+        <h1 class="compare">COMPARE</h1>
+        <div class="bottom">
+            <div class="table">
+                <div class="thead">
+                    <div class="head-cont">
+                        <span>THE FEATURES</span>
+                        <div class="tb-heads">
+                            <span class="head">Basic</span>
+                            <span class="head">Pro</span>
+                            <span class="head">Business</span>
+                        </div>
+                        
+                    </div>
+                    <div class="bold-line"></div>
+                </div>
+                <div class="tbody">
+                    <div class="tdata">
+                        <span class="dheader">UNLIMITED STORY POSTING</span>
+                        <div class="data-container">
+                            <div class="data">
+                                <span>BASIC</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                            <div class="data">
+                                <span>PRO</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                            <div class="data">
+                                <span>BUSINESS</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-line"></div>
+                    <div class="tdata">
+                        <span class="dheader">UNLIMITED PHOTO UPLOAD</span>
+                        <div class="data-container">
+                            <div class="data">
+                                <span>BASIC</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                            <div class="data">
+                                <span>PRO</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                            <div class="data">
+                                <span>BUSINESS</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-line"></div>
+
+                    <div class="tdata">
+                        <span class="dheader">EMBEDDING CUSTOM CONTENT</span>
+                        <div class="data-container">
+                            <div class="data">
+                                <span>BASIC</span>
+                                
+                            </div>
+                            <div class="data">
+                                <span>PRO</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                            <div class="data">
+                                <span>BUSINESS</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-line"></div>
+
+                    <div class="tdata">
+                        <span class="dheader">CUSTOMIZE METADATA</span>
+                        <div class="data-container">
+                            <div class="data">
+                                <span>BASIC</span>
+                                
+                            </div>
+                            <div class="data">
+                                <span>PRO</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                            <div class="data">
+                                <span>BUSINESS</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-line"></div>
+
+                    <div class="tdata">
+                        <span class="dheader">ADVANCED METRICS</span>
+                        <div class="data-container">
+                            <div class="data">
+                                <span>BASIC</span>
+                                
+                            </div>
+                            <div class="data">
+                                <span>PRO</span>
+                            </div>
+                            <div class="data">
+                                <span>BUSINESS</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-line"></div>
+
+                    <div class="tdata">
+                        <span class="dheader">PHOTO DOWNLOADS</span>
+                        <div class="data-container">
+                            <div class="data">
+                                <span>BASIC</span>
+                                
+                            </div>
+                            <div class="data">
+                                <span>PRO</span>
+                            </div>
+                            <div class="data">
+                                <span>BUSINESS</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-line"></div>
+
+                    <div class="tdata">
+                        <span class="dheader">SEARCH ENGINE INDEXING</span>
+                        <div class="data-container">
+                            <div class="data">
+                                <span>BASIC</span>
+                                
+                            </div>
+                            <div class="data">
+                                <span>PRO</span>
+                            </div>
+                            <div class="data">
+                                <span>BUSINESS</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-line"></div>
+
+                    <div class="tdata">
+                        <span class="dheader">CUSTOM ANALYTICS</span>
+                        <div class="data-container">
+                            <div class="data">
+                                <span>BASIC</span>
+                                
+                            </div>
+                            <div class="data">
+                                <span>PRO</span>
+                            </div>
+                            <div class="data">
+                                <span>BUSINESS</span>
+                                <img src="./resources/pricing/desktop/check.svg" alt="check">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-line"></div>
+
+                </div>
+
+
+            </div>
+        
+        </div>
+        <div class="invite-cont">
+            <div class="colr-line2"></div>
+            <div class="invite-header">
+                <h1>We're in beta.</h1>
+                <h1>Get your invite</h1>
+                <h1> today!</h1>
+            </div>
+            <button class="invite-bottom">
+                GET AN INVITE
+                <img src="./resources/shared/desktop/arrow.svg" alt="arrow">
+            </button>
+        </div>
+    </main>
+    <footer>
+        <a href="./home.html"><img src="./resources/shared/desktop/logo.svg" alt="logo" class="ft-logo"></a>
+         <div class="foot">
+             <div class="nav">
+                 <div class="contact">
+                     <img src="./resources/shared/desktop/facebook.svg" alt="facebook">
+                     <img src="./resources/shared/desktop/youtube.svg" alt="youtube">
+                     <img src="./resources/shared/desktop/twitter.svg" alt="twitter">
+                     <img src="./resources/shared/desktop/pinterest.svg" alt="pinterest">
+                     <img src="./resources/shared/desktop/instagram.svg" alt="instagram">
+                 </div>
+                 <div class="nav-bar">
+                     <a href="./home.html">Home</a>
+                     <a href="./storys.html">Stories</a>
+                     <a href="./features.html">Features</a>
+                     <a href="./pricing.html">Pricing</a>
+                 </div>
+             </div>
+             <div class="foot-btm">
+                 <button class="invite-str bottom">
+                     GET AN INVITE
+                     <img src="./resources/shared/desktop/arrow.svg" alt="arrow">
+                 </button>
+                 <spam class="copyright">
+                     Copyright 2019. All Rights Reserved
+                 </spam>
+             </div>
+         </div>
+     </footer>
+    <script src="./resources/navbar.js"></script>
+    <script src="./resources/pricing.js"></script>
+</body>
+</html>
